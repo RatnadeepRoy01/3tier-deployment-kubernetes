@@ -78,7 +78,7 @@ All manifests are located in this directory:
 - Backend connects to MongoDB via:  
   `mongodb://mongo:27017/chat-app`
 - Frontend talks to backend using:  
-  `http://backend:5000` (resolvable within the cluster)
+  `http://backend:5001` (resolvable within the cluster)
 
 ---
 
