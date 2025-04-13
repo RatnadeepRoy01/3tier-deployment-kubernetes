@@ -16,7 +16,7 @@ This repository contains Kubernetes manifests to deploy a **3-tier realtime chat
 [Frontend (Vite)]
       |
       v
-[Service: frontend (NodePort)]
+[Service: frontend (ClusterIP)]
       |
       v
 [Backend (Express)]
@@ -33,7 +33,7 @@ This repository contains Kubernetes manifests to deploy a **3-tier realtime chat
 
 ## 📁 Contents
 
-All manifests are located in the `kubernetes/` directory:
+All manifests are located in this directory:
 
 - `frontend-deployment.yaml`  
 - `frontend-svc.yaml`  
